@@ -3,17 +3,13 @@ require 'uri'
 require 'pry'
 require 'open-uri'
 
-require 'dotenv'
 
-Dotenv.load('.env')
-
-API_KEY = ENV['API_KEY']
-IPIFY_KEY = ENV['IPIFY_KEY']
-
-
-
-
-binding.pry
+#Enviroment Variables
+IPIFY_KEY = "at_CMw13TagNqyuWNAZXe2uxrYP5lvzy"
+API_KEY = "AIzaSyDVcquHLOqKECu2UQKrCsF1kn2ACpXC-c4"
+#API_KEY = "AIzaSyA3suZ8mO6MDirIA6FNypUHMc_a9KjyZ04" 
+#API_KEY = "AIzaSyCeZQVGEkpKIbStijyEGbTtc4zD-NvE22M"
+#API_KEY = "AIzaSyCecBI6bAHkrS-9NYLfknUHc3sSxgtKsbw"
 
 
 #Method to take user's input 
@@ -46,9 +42,6 @@ keyword = queries[:keyword]
 location = get_current_location
 latitude = location[:latitude]
 longitude = location[:longitude]
-
-API_KEY = ENV['API_KEY']
-IPIFY_KEY = ENV['IPIFY_KEY']
 
 
 #set uri according to google maps API docs
