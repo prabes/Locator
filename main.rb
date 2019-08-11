@@ -16,4 +16,6 @@ user_info = UserInput.new
 location = CurrentLocation.new
 locator = Locator.new(user_info, location)
 
+
+
 Display.display(locator.search)
