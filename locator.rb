@@ -7,6 +7,8 @@ require 'dotenv'
 
 Dotenv.load('.env') #loads ENV variables from .env file
 
+API_KEY = ENV['API_KEY']
+IPIFY_KEY = ENV['IPIFY_KEY']
 
 #Method to take user's input 
 def user_input
@@ -39,8 +41,7 @@ location = get_current_location
 latitude = location[:latitude]
 longitude = location[:longitude]
 
-API_KEY = ENV['API_KEY']
-IPIFY_KEY = ENV['IPIFY_KEY']
+
 
 
 #set uri according to google maps API docs
