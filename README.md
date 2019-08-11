@@ -6,9 +6,9 @@ It utilizes `ipify API` to get the user's location details ie, longitude & latit
 It consumes `Google Maps API` to get the search results.   
 
 ## Usages
-You are not made available with the `IPIFY API-KEY` and `Google Maps API-KEY`
+You'll need `IPIFY API-KEY` and `Google Maps API-KEY` in order to run this script.
 
-1. You must create an .env file and place it on root directory.
+1. You must create an .env file on root directory.
 2. You should now include the API credentials as: 
     ``` Enviroment Variables
 
