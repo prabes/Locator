@@ -5,7 +5,7 @@ require 'open-uri'
 
 require 'dotenv'
 
-Dotenv.load('.env')
+Dotenv.load('.env') #loads ENV variables from .env file
 
 
 #Method to take user's input 
