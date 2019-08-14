@@ -15,6 +15,6 @@ You'll need `IPIFY API-KEY` and `Google Maps API-KEY` in order to run this scrip
         IPIFY_KEY=[YOUR_IPIFY_KEY]
         API_KEY=[YOUR_GOOGLE_API_KEY] ```
 Run:
-3. > $ ruby locator.rb
+3. > $ ruby main.rb
 
 
